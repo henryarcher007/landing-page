@@ -1,0 +1,43 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    height: 50px;
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin: 0
+}
+
+.content {
+    display: flex;
+    border: red dashed;
+}
+
+.left{
+    display: flex;
+    border: green dashed;
+    flex-direction: column;
+    flex: 4 1 0;
+    padding: 3px;
+    
+}
+
+.right{
+    display: flex;
+    flex: 3 1 0
+}
+
+.button{
+    display: flex;
+    width: 200px;
+}
