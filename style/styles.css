@@ -43,3 +43,15 @@ ul {
     width: 200px;
 }
 
+.boxes{
+    display: flex;
+    border: black, dashed;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    border: black dashed
+
+}
+
