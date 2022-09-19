@@ -97,6 +97,8 @@ ul {
     padding-left: 270px;
     border: pink solid;
     margin:0px;
+    height: 600px;
+    padding-top: 0px;
 }
 
 .img{
@@ -117,8 +119,12 @@ ul {
 .title{
     display: flex;
     justify-content: center;
-    border: black dashed
+    border: black dashed;
+    margin-top: 30px;
+}
 
+#boxheader{
+    font-size: 30px;
 }
 
 .container-three{
@@ -130,6 +136,21 @@ ul {
     border: pink solid;
     background-color: #E5E7EB;
     margin:0px;
+    height: 350px;
+}
+
+.speaker{
+    display: flex;
+    justify-content: flex-end;
+   margin-right: 110px;
+}
+
+.quote{
+    margin-right:70px ;
+    margin-left:70px ;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 .container-four{
@@ -140,22 +161,7 @@ ul {
     padding-left: 270px;
     border: pink solid;
     margin:0px;
-}
-
-
-
-.speaker{
-    display: flex;
-    justify-content: flex-end;
-   margin-right: 110px;
-}
-
-.quote{
-    margin-right:100px ;
-    margin-left:100px ;
-    font-size: 26px;
-    font-style: italic;
-    font-weight: lighter;
+    height: 250px
 }
 
 .alignment{
@@ -165,10 +171,41 @@ ul {
 
 .bottom{
     border: 1px solid black;
-    width: 400px;
     display: flex;
     justify-content: space-between;
-    align-content: center;}
+    align-content: center;
+    width: 800px;
+    height: 100px;
+    background-color: #1e88e5;
+}
 
-.right {
+.leftb{
+    align-self: center;
+    margin-left: 30px;
+}
+
+.rightb{
+    align-self: center;
+    margin-right: 90px;
+}
+
+#action {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#subaction{
+    color: lightgoldenrodyellow;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#btn-two{
+    border: 2px solid white;
+    background-color: #1e88e5;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding: 5px;
+    width: 120px;
 }
