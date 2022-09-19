@@ -2,8 +2,18 @@
     display: flex;
     justify-content: space-between;
     padding: 8px;
-    height: 50px;
+    height: 40px;
     border: red dashed
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 270px;
+    padding-left: 270px;
+    border: pink solid;
+    margin:0px;
 }
 
 .logo{
@@ -22,6 +32,7 @@ ul {
 .content {
     display: flex;
     border: red dashed;
+    height: 250px;
 }
 
 .left{
@@ -38,7 +49,7 @@ ul {
     flex: 3 1 0
 }
 
-.button{
+.button-one{
     display: flex;
     width: 200px;
 }
@@ -46,6 +57,7 @@ ul {
 .boxes{
     display: flex;
     border: black, dashed;
+    justify-content: space-around;
 }
 
 .title{
@@ -55,3 +67,35 @@ ul {
 
 }
 
+.speaker{
+    display: flex;
+    justify-content: flex-end;
+   margin-right: 110px;
+}
+
+.quote{
+    margin-right:80px ;
+    margin-left:80px ;
+}
+
+.alignment{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom{
+    display:flex;
+    border: solid black;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height:;
+    width: 600px
+}
+
+.button-two{
+   margin-left: auto;
+   margin-bottom:;
+   width: 100px;
+   border:green dashed
+   
+}
