@@ -140,7 +140,9 @@ ul {
 .speaker{
     display: flex;
     justify-content: flex-end;
-   margin-right: 110px;
+   margin-right: 170px;
+   font-size: 17px;
+   font-weight: bold;
 }
 
 .quote{
